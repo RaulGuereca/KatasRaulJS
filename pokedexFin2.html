@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pokedex launchx</title>
+    <link rel="stylesheet" href="./pokedexFin2.css">
+</head>
+<body>
+    <form action="" onsubmit="fetchPokemon()">
+        <input type="text" placeholder="pikachu" id="pokeName" name="pokeName">
+    </form>
+    <div data-pokecard class="pokecard">
+        <div data-poke-nombre>
+            Pokedex
+        </div>
+        <div data-poke-figura-contenedor class="poke-figura-contenedor">
+            <img data-poke-figura class="pokefigura" src="./pokedex.jpg" alt="Pokemon" id="pokeImg" width="150px"><br>       
+        </div>
+        <div tit-tipos class="titulo1">
+         
+        </div>
+        <div data-poke-tipos class="poke-tipos">
+        </div>
+        <div tit-stats class="titulo2">
+
+        </div>
+        <div data-poke-stats class="poke-stats">
+        </div>
+        <div tit-moves class="titulo3">
+
+        </div>
+        <div data-poke-moves class="poke-moves">
+        </div>
+      
+        <button onclick="fetchPokemon()">Cambiar Pokemon</button>
+    </div>
+
+</body>
+<footer>
+    <script src="./pokedexFin2.js"></script>
+</footer>
+</html>
